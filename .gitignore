@@ -1,0 +1,22 @@
+# Paketler
+node_modules/
+yarn.lock
+package-lock.json
+
+# Sistem ve Araçlar
+database/
+assets/
+commands/
+events/
+utility/
+config.json
+pulse.js
+
+# Diğer
+.tmp/
+.vscode/
+webpack/
+list.todo
+.DS_Store
+
+!docs/assets

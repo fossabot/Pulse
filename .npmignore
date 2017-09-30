@@ -1,0 +1,28 @@
+# Paketler
+node_modules/
+yarn.lock
+
+# Sistem ve Araçlar
+database/
+assets/
+commands/
+events/
+docs/
+utility/
+config.json
+pulse.js
+
+# Diğer
+.tmp/
+.vscode/
+.git/
+.github/
+webpack/
+list.todo
+.DS_Store
+.env
+.gitignore
+pulse.bat
+pulse.sh
+Procfile
+.eslintrc.json
