@@ -15,7 +15,11 @@
         "Pulse Bot",
         "PulseBot"
     ],
-    "os" : [ "darwin", "linux", "win64"],
+    "os": [
+        "darwin",
+        "linux",
+        "win64"
+    ],
     "engines": {
         "node": ">=8.6.0",
         "npm": ">=5.4.0"
@@ -30,11 +34,13 @@
     },
     "devDependencies": {
         "@types/node": "^8.0.31",
-        "download-git-repo": "^1.0.1"
+        "download-git-repo": "^1.0.1",
+        "moment-timezone": "^0.5.13",
+        "node-cron": "^1.2.1"
     },
     "contributors": [
         "Yankı Küçük <kendinikertenkelebek@me.com> (https://kendinikertenkelebek.github.io/Pulse/)"
-      ],
+    ],
     "homepage": "https://github.com/kendinikertenkelebek/Pulse",
     "repository": {
         "type": "git",
