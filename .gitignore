@@ -16,7 +16,6 @@ pulse.js
 # Diğer
 .tmp/
 .vscode/
-webpack/
 list.todo
 .DS_Store
 
