@@ -1,0 +1,11 @@
+{
+    "templates": {
+      "systemName": "Pulse",
+      "copyright": "MIT"
+    },
+    "opts": {
+      "encoding": "utf8",
+      "destination": "webpack/",
+      "recurse": true
+    }
+  }

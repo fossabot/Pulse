@@ -7,7 +7,8 @@
     "main": "pulse.js",
     "license": "ISC",
     "scripts": {
-        "test": "echo \"Hata: Hiçbir test belirtilmedi\" && exit 1"
+        "test": "echo \"Hata: Hiçbir test belirtilmedi\" && exit 1",
+        "docs": "doxdox 'lib/**/*.js' --layout bootstrap --output webpack/index.html"
     },
     "keywords": [
         "Pulse",
@@ -37,7 +38,9 @@
         "node-cron": "^1.2.1"
     },
     "devDependencies": {
-        "@types/node": "^8.0.31"
+        "@types/node": "^8.0.31",
+        "doxdox": "^2.0.3",
+        "eslint": "^4.8.0"
     },
     "contributors": [
         "Yankı Küçük <kendinikertenkelebek@me.com> (https://pulseoriginal.github.io)"
