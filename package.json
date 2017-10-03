@@ -40,7 +40,8 @@
     "devDependencies": {
         "@types/node": "^8.0.31",
         "doxdox": "^2.0.3",
-        "eslint": "^4.8.0"
+        "eslint": "^4.8.0",
+        "html-to-json": "^0.6.0"
     },
     "contributors": [
         "Yankı Küçük <kendinikertenkelebek@me.com> (https://pulseoriginal.github.io)"
