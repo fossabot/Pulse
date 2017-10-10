@@ -41,7 +41,8 @@
         "@types/node": "^8.0.31",
         "doxdox": "^2.0.3",
         "eslint": "^4.8.0",
-        "html-to-json": "^0.6.0"
+        "html-to-json": "^0.6.0",
+        "jshint": "^2.9.5"
     },
     "contributors": [
         "Yankı Küçük <kendinikertenkelebek@me.com> (https://pulseoriginal.github.io)"
