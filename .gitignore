@@ -9,6 +9,7 @@ assets/
 commands/
 events/
 utility/
+pulseHelper/
 cron/
 config.json
 pulse.js

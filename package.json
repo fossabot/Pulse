@@ -5,6 +5,7 @@
     "description": "PlayerBerry için bot",
     "private": true,
     "main": "pulse.js",
+    "types": "./typings/index.d.ts",
     "license": "ISC",
     "scripts": {
         "test": "echo \"Hata: Hiçbir test belirtilmedi\" && exit 1",
