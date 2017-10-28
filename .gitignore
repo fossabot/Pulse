@@ -10,6 +10,7 @@ commands/
 events/
 utility/
 pulseHelper/
+pulseHelper/node_modules/
 cron/
 config.json
 pulse.js

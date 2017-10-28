@@ -36,12 +36,12 @@
         "mongoose": "^4.12.4",
         "node-cron": "^1.2.1",
         "request": "^2.83.0",
-        "snekfetch": "^3.5.5"
+        "snekfetch": "^3.5.8"
     },
     "devDependencies": {
-        "@types/node": "^8.0.46",
+        "@types/node": "^8.0.47",
         "doxdox": "^2.0.3",
-        "eslint": "^4.9.0",
+        "eslint": "^4.10.0",
         "html-to-json": "^0.6.0",
         "jshint": "^2.9.5"
     },
