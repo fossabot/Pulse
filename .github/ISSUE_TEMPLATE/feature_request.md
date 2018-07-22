@@ -1,6 +1,6 @@
 ---
-Name: Özellik İsteği
-About: Pulse'ta henüz mevcut olmayan bir özellik isteyin
+name: Özellik İsteği
+about: Pulse'ta henüz mevcut olmayan bir özellik isteyin
 
 ---
 

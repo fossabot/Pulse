@@ -1,6 +1,6 @@
 ---
-Name: Hata Raporu
-About: Pulse'un yanlış ya da beklenmedik davranışını bildirin
+name: Hata Raporu
+about: Pulse'un yanlış ya da beklenmedik davranışını bildirin
 
 ---
 
