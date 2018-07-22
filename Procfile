@@ -1,1 +1,1 @@
-worker: node pulse.js
+worker: node app.js

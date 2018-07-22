@@ -1,0 +1,117 @@
+{
+  "Konsola Yazdır": {
+    "prefix": "log",
+    "body": ["console.log('$1');"],
+    "description": "Veriyi konsola yazar"
+  },
+
+  "Yeni Komut Sayfası": {
+    "prefix": "new-Command",
+    "body": [
+      "exports.run = async (client, helper, language, message, args, perms) => {",
+      "\t",
+      "\t${1}",
+      "\t",
+      "};",
+      "\t",
+      "exports.conf = {",
+      "\tenabled: true,",
+      "\tguildOnly: false,",
+      "\taliases: [],",
+      "\tpermLevel: 10",
+      "};",
+      "\t",
+      "exports.help = {",
+      "\tname: '${2}',",
+      "\tdescription: '${3}',",
+      "\tusage: '${4}',",
+      "\tcategory: '${5}'",
+      "};"
+    ],
+    "description": "Yeni komut sayfası oluşturur"
+  },
+
+  "Yeni Event Sayfası": {
+    "prefix": "new-Event",
+    "body": [
+      "module.exports = async (client, helper, {1}) => {",
+      "\t",
+      "\t${2}",
+      "\t",
+      "};",
+      "\t"
+    ],
+    "description": "Yeni komut sayfası oluşturur"
+  },
+
+  "Switch-Case": {
+    "prefix": "switch-case",
+    "body": [
+      "var subCommand = args[0];",
+      "switch (subCommand) {",
+      "\t",
+      "\tcase ('${1}'):",
+      "\t\ttry {",
+      "\t",
+      "\t${2}",
+      "\t",
+      "\t\t} catch (e) { console.log(e); }",
+      "\tbreak;",
+      "\t",
+      "\tdefault:",
+      "\t",
+      "\t${3}",
+      "\t",
+      "}"
+    ],
+    "description": "Switch-Case oluşturur"
+  },
+
+  "Case-Block": {
+    "prefix": "case-block",
+    "body": [
+      "case ('${1}'):",
+      "\ttry {",
+      "\t",
+      "\t${2}",
+      "\t",
+      "\t} catch (e) { console.log(e); }",
+      "break;"
+    ],
+    "description": "Switch içine Case ekler"
+  },
+
+  "Require Discord": {
+    "prefix": "req-dis",
+    "body": ["const Discord = require('discord.js');"],
+    "description": "Discord.js dosyasını require eder"
+  },
+
+  "Require Discord Embed": {
+    "prefix": "req-em",
+    "body": ["const { MessageEmbed } = require('discord.js');"],
+    "description": "Discord.js dosyası içinden MessageEmbed require eder"
+  },
+
+  "Warn Embed": {
+    "prefix": "embed-warn",
+    "body": [
+      "const embed = new MessageEmbed()",
+      "\t.setDescription('${1}')",
+      "\t.setColor('#C6152E')",
+      "return message.channel.send({ embed });"
+    ],
+    "description": "Bir hata embed örneği çıkartır"
+  },
+
+  "Success Embed": {
+    "prefix": "embed-success",
+    "body": [
+      "const embed = new MessageEmbed()",
+      "\t.setDescription('${1}')",
+      "\t.setColor('#6AEF14')",
+      "return message.channel.send({ embed });"
+    ],
+    "description": "Bir hata embed örneği çıkartır"
+  }
+}

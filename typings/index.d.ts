@@ -1,3 +1,3 @@
-declare module 'pulseHelper' {
+declare module 'helper' {
     export const version: string;
 }

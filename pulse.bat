@@ -5,15 +5,15 @@ node -v >tmp.txt
 set /p NODE_VER=<tmp.txt
 del tmp.txt
 IF %NODE_VER% EQU null (
-	echo Lütfen Node.js yükleyin.
+	echo Please install Node.JS
   pause
 	exit
 	)
 ) ELSE (
-	echo Pulse dosyaları yükleniyor...
+	echo Downloading Pulse files...
 	cls
 	call npm install
 	cls
-	node pulse.js
+	node app.js
 	pause
 )

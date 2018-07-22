@@ -8,16 +8,16 @@ database/
 assets/
 commands/
 events/
-utility/
-pulseHelper/
-pulseHelper/node_modules/
-cron/
-config.json
-pulse.js
+helper.js/
+language/
+models/
+util/
+
+app.js
 
 # Diğer
 .tmp/
-.vscode/
+webpack/
 list.todo
 .DS_Store
 

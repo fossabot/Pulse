@@ -1,0 +1,30 @@
+{
+  "ownerid": "216100823241981952",
+  "version": "1.0.0",
+  "prefix": "+",
+  "tokens": {
+    "client": "NDY1NTA1NjM5MjIxOTUyNTIy.DiO9ug.rnyiuP2pY-VNCXLTWC4359hLqsc"
+  },
+  "channels": {
+    "generalchat": "375933798015041536",
+    "feedbeck": "331807949049561090",
+    "botlogs": "330474314602119180",
+    "mentions": "330474365764239360"
+  },
+  "apis": {
+    "blizzard": {
+      "region": "eu",
+      "realm": "silvermoon",
+      "locale": "en_GB",
+      "apikey": "123123123123123",
+      "access_token": "123123123123123"
+    },
+    "riot":{
+      "apiKey": ""
+    },
+    "twitch": {
+      "clientId": "3ia269kgci6dkqmv0wivxm4xo2fsmq",
+      "token": "9v4qej5n4nkazw8d5y4kmhafo8eqks"
+    }
+  }
+}
