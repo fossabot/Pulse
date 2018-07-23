@@ -28,6 +28,8 @@
   "dependencies": {
     "discord.js": "github:hydrabolt/discord.js#master",
     "fs-extra": "^6.0.1",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
     "mongoose": "^4.11.12",
     "request": "^2.87.0",
     "request-promise": "^4.2.2",
