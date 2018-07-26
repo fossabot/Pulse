@@ -17,6 +17,7 @@ app.js
 config.js
 
 # Diğer
+.todo
 .tmp/
 webpack/
 list.todo
