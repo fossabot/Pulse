@@ -8,7 +8,7 @@ database/
 assets/
 commands/
 events/
-helper.js/
+cyberengine/
 language/
 models/
 util/
