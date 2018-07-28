@@ -1,4 +1,4 @@
-module.exports = (ws, skynet) => {
-  const data = ws.connection || skynet.connection;
-  return data;
+module.exports = (websocket, cyberengine) => {
+  const connection = websocket.connection || cyberengine.connection;
+  return connection;
 };
